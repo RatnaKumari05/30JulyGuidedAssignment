@@ -1,0 +1,18 @@
+<p>employee-component works!</p>
+<table>
+    <tr>
+      <th>Employee Number</th>
+      <th> Employee name  </th>
+      <th>    Job        </th>
+      <th>  Hired Date   </th>
+      <th>  Manager ID   </th>
+  
+    </tr>
+    <tr *ngFor = "let List Of employeeList">
+     <td>{{List.empno}}</td>
+     <td>{{List.ename}}</td>
+     <td>{{List.job}}</td>
+     <td>{{List.hiredate}}</td>
+     <td>{{List.managerId}}</td>
+    </tr>
+  </table>
